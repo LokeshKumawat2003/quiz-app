@@ -1,0 +1,15 @@
+nav{
+    margin-bottom: 30px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  box-shadow: 0 0 16px 0 rgb(183, 1, 183);
+}
+.nav-box a {
+  margin: 5px 8px;
+  text-decoration: none;
+  font-weight: 600;
+}

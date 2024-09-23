@@ -1,0 +1,45 @@
+.quiz-question{
+    margin: auto;
+    text-align: center;
+}
+
+.opctions{
+    background-color: rgb(254, 254, 254);
+    padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
+
+.opction-selection{
+padding: 15px 5px;
+    text-align: start;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+}
+.opction-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-box{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.btn-box button{
+    border: none;
+    color: white;
+    background-color: #d122d1;
+    padding: 4px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 5px 14px;
+}
+.btn-box button:active{
+    background-color: #a319a3;
+}
